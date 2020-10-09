@@ -1,0 +1,303 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+
+
+  margin: 0;
+  padding: 0;
+
+}
+html {
+  margin: 0;
+  padding: 0; 
+  scroll-behavior: smooth;
+  width: 100%;
+
+}
+body {
+  margin: 0;
+  padding: 0; 
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+.app {
+  height: 100%;
+}
+
+
+.content {
+  margin-left: 0;
+  margin-right: 0;
+  transition: 0.5s;
+  height: 80%;
+  width: 100%;
+  
+}
+.navbar {
+  color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: #768285;
+
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#768285, #DDDEE0, #768285);
+}
+
+
+
+
+
+
+#slide-image {
+  width: 300px;
+}
+
+.menu-icon-container {
+  z-index: 100;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(220, 220, 220, .4);
+  
+}
+
+.link:hover {
+  color: white
+}
+
+
+.youtube { 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#768285, #DDDEE0, #768285);
+  align-content: center;
+
+}
+
+
+
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#768285, #DDDEE0, #768285);
+  align-content: center;
+
+}
+
+.contact-form {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-direction: column;
+  height: 600px;
+  min-height: 70%;
+  min-width: 40%;
+  max-height: 100%;
+  max-width: 100%;
+  background-color:#fafafa;
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+  
+
+  
+}
+.contact-form h2 {
+  color: black;
+ 
+
+}
+
+
+ul {
+  list-style: none;
+}
+ .inputs {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  width: 450px;
+  min-width: 50%;
+  max-width: 95%;
+  height: 50px;
+  min-height: 4%;
+  max-height: 4%;
+  margin-bottom: 20px;
+
+  
+}
+.comments-input {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  height: 200px;
+  min-height: 20%;
+  max-height: 20%;
+  width: 400px;
+  min-width: 50%;
+  max-width: 95%;
+  resize: none;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-family: 'Lucida Grande';
+  color: black;
+  display: block;
+  clear: both;
+  padding-bottom: 5px;
+  
+}
+.error-message {
+  height: 50px;
+  color: #FD595B;
+  margin-bottom: 20px;
+  
+}
+.contact-form p {
+  color: black;
+  
+ 
+}
+.submit-button {
+  
+  color: #FFFDFF;
+  background-color: #4A9DE3;
+
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216,216,216);
+  border-radius: 6px;
+  text-align: center;
+  
+}
+
+.fade-in {animation:fading 2s}
+
+@keyframes 
+  fading{ 
+      0%{opacity:0.75}
+      100%{opacity:1}}
+
+.drawer {
+  
+  height: 100%;
+  display: flex;
+  width: 0;
+  position: fixed;
+  padding-left: -20px;
+  z-index: 100;
+  top: 10%;
+  right: 0;
+  background-color: #768285;
+  overflow: hidden;
+  padding-top: 35px;
+  transition: 0.5s;
+ 
+}
+
+
+
+
+
+.drawer-close-button { 
+  width: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: flex-end;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 45px;
+
+}
+
+
+a .home {
+  padding-top: 10vh;
+}
+
+.icon {
+  padding-right: 40;
+  
+}
+.material-icons {
+  color: black;
+  font-size: 45px;
+  margin-right: 15px;
+ 
+}
+
+.arrow-prev, .arrow-next {
+  position: absolute;
+  top: 50%
+}
+.arrow-prev {
+  left: -15px;
+}
+.arrow-next { 
+  right: -35px;
+}
+.hamburger {
+  background-color: black;
+  font-size: 45px;
+  margin-right: 15px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  background-color: #768285;
+}
+
+.resize {
+  align-items: center;
+  background: #5f9ea0;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  text-align: center;
+  
+}
+
+
